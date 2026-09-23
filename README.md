@@ -1,6 +1,6 @@
 # Compression and age robust voice cloning detection
 
-This project check whether a light CNN (LCNN), trained to distinguish fake clips from real ones produced by adults, generalise to children's voices and Opus-compressed audio versions.
+This project check whether a light CNN (LCNN), trained to distinguish fake clips from real ones produced by adults, generalises to children's voices and Opus-compressed audio versions.
 
 ## Files
 
