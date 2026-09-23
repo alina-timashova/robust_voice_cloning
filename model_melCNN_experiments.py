@@ -17,7 +17,6 @@ ROOTS = {
     'adult': os.path.expanduser('~/nn-dataprep/codecfake_preprocessed'),
     'child': os.path.expanduser('~/nn-dataprep/samromur_preprocessed_sp'),
     'dac_adult': os.path.expanduser('~/nn-dataprep/dac_test_adult'),
-    'dac_child': os.path.expanduser('~/nn-dataprep/dac_test_child'),
 }
 
 EXPERIMENTS = {
@@ -49,8 +48,6 @@ EXPERIMENTS = {
         'tests': {
             'all_compressed_ages': [('adult', 'clean'), ('adult', 'compressed'),
                                     ('child', 'clean'), ('child', 'compressed')],
-            'DAC': [('dac_adult', 'clean'), ('dac_adult', 'compressed'),
-                    ('dac_child', 'clean'), ('dac_child', 'compressed')],
         },
     },
 }
