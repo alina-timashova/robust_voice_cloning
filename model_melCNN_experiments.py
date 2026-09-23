@@ -10,13 +10,13 @@ from sklearn.metrics import roc_curve
 from scipy.optimize import brentq
 from scipy.interpolate import interp1d
 
-from data_prep_parallel import load_split
+from data_prep import load_split
 
 
 ROOTS = {
     'adult': os.path.expanduser('~/nn-dataprep/codecfake_preprocessed'),
     'child': os.path.expanduser('~/nn-dataprep/samromur_preprocessed_sp'),
-    'dac_adult': os.path.expanduser('~/nn-dataprep/dac_test_adult'),
+    'dac_adult': os.path.expanduser('~/nn-dataprep/dac_test_adults'),
 }
 
 EXPERIMENTS = {
